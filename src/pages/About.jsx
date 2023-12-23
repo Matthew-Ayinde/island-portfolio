@@ -15,15 +15,15 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Matthew
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          I'm a Software Engineer based in Nigeria, specializing in full stack web development through hands-on learning and building applications. I am a recent graduate with a Bachelor of Science degree in Computer Science, equipped with a substantial knowledge base spanning both frontend and backend web technologies. Proficient in HTML5, CSS3, vanilla JavaScript, Sass, Tailwind, Bootstrap, <b>React</b> and primarily utilizing the MERN stack for web development, I have demonstrated competence in designing and developing modern web applications. Furthermore, I possess substantial expertise in the development of blockchain applications using the Solidity programming language, underscoring my versatility and proficiency in cutting-edge technologies.
+                Swipe left to continue
         </p>
       </div>
 

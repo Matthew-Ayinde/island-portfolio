@@ -7,6 +7,7 @@ const Navbar = () => {
     <header className='header'>
       <NavLink to='/'>
         <img src={logo} alt='logo' className='w-18 h-18 object-contain' />
+        {/* <NavLink to='/' className='text-blue-9000 text-lg gap-7 font-medium'> */}
       </NavLink>
       <nav className='flex text-lg gap-7 font-medium'>
         <NavLink to='/about' className={({ isActive }) => isActive ? "text-blue-600" : "text-black" }>

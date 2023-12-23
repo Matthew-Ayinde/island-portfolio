@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import {ariktee, shopify, yabatech} from "../assets/images";
 import {
     car,
     contact,
@@ -111,39 +111,26 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "Front End Developer",
+        company_name: "Yabatech",
+        icon: yabatech,
+        iconBg: "#383E56",
+        date: "March 2022 - October 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using HTML, CSS, JavaScript, and Bootstrap and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        title: "Front End Developer",
+        company_name: "Ariktee Logistics",
+        icon: ariktee,
+        iconBg: "#E6DEDD",
         date: "Jan 2021 - Feb 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using Sass, Bootstrap, and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
@@ -151,17 +138,17 @@ export const experiences = [
     },
     {
         title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        company_name: "Matthew Inc",
+        icon: shopify,
+        iconBg: "#E6DEDD",
+        date: "Jan 2019 - Present",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
-    },
+    }
 ];
 
 export const socialLinks = [
@@ -173,7 +160,7 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Matthew-Ayinde',
     },
     {
         name: 'LinkedIn',
@@ -186,29 +173,32 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: "Yelp Camp",
+        description: "Yelp Camp is a web application (created primarily with bootstrap and nodeJs) that encompasses essential backend functionalities, including user authentication, mapping services, and geolocation features. Its user interface boasts simplicity and intuitiveness, providing an accessible and user-friendly experience. Check it out!",
+        source_code_demo: 'https://glacial-plains-71847-f9ada60e670b.herokuapp.com/',
+        source_code_link: 'https://github.com/Matthew-Ayinde/yelp-camp'
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: "ColorGuess Pro",
+        description: "The application, 'ColorGuess Pro,' leverages the RGB color model to generate a random color and subsequently prompts the user to make an educated guess regarding the resultant hue. This interactive web game engages participants in a challenging and entertaining exercise of color perception and recognition.",
+        source_code_demo: 'https://matthewcolorgame.netlify.app/',
+        source_code_link: 'https://github.com/Matthew-Ayinde/colour-game'
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: "Book List",
+        description: "My booklist project, created using HTML5, BootStrap and JavaScript, provides an intuitive platform for managing books with a user-friendly minimalistic approach. This project underscores my proficiency in web development and commitment to user-centered design, laying a strong foundation for future projects in this domain.",
+        source_code_link: 'https://github.com/Matthew-Ayinde/book-list-project',
+        source_code_demo: 'https://book-list-project-pi.vercel.app/'
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        name: "Book List",
+        description: "My booklist project, created using HTML5, BootStrap and JavaScript, provides an intuitive platform for managing books with a user-friendly minimalistic approach. This project underscores my proficiency in web development and commitment to user-centered design, laying a strong foundation for future projects in this domain.",
         link: 'https://github.com/adrianhajdin/social_media_app',
     },
     {

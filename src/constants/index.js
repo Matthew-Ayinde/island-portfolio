@@ -171,12 +171,36 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: estate,
+        theme: 'btn-back-black',
+        name: 'Leo Burnett',
+        description: 'Leo Burnett is a communications agency powered by its HumanKind operating system, with the belief that creativity, and technology work together to transform human behavior and drive prosperity for clients.',
+        source_code_demo: 'https://leoburnett.vercel.app/',
+        source_code_link: 'https://github.com/Matthew-Ayinde/leo-burnett'
+    },
+    {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: "Yelp Camp",
-        description: "Yelp Camp is a web application (created primarily with bootstrap and nodeJs) that encompasses essential backend functionalities, including user authentication, mapping services, and geolocation features. Its user interface boasts simplicity and intuitiveness, providing an accessible and user-friendly experience. Check it out!",
-        source_code_demo: 'https://glacial-plains-71847-f9ada60e670b.herokuapp.com/',
-        source_code_link: 'https://github.com/Matthew-Ayinde/yelp-camp'
+        name: "Adesope Adeyinka Foundation",
+        description: "The Adeyinka Adesope Foundation (AAF) serves as a symbol of hope and empowerment for disadvantaged communities, driven by a steadfast commitment to enhancing lives and advocating for welfare.",
+        source_code_demo: 'https://aaf-website.vercel.app',
+        source_code_link: 'https://github.com/Matthew-Ayinde/aaf-website',
+    },
+    {
+        iconUrl: estate,
+        theme: 'btn-back-black',
+        name: 'Quadrant MSL',
+        description: 'We are a leading Strategic Communications Consultancy, a member of MSL Group and part of multinational Marketing Communications group, Publicis Groupe Global.',
+        source_code_demo: 'https://qmsl.vercel.app/',
+        source_code_link: 'https://github.com/Matthew-Ayinde/Quadrant-msl'
+    },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: "Daily Times",
+        description: "Daily Times Nigeria is the foremost news and information agency in Nigeria. It seeks to offer factual and timely news reports as well as audiovisual content",
+        source_code_demo: 'https://daily-times-five.vercel.app/',
+        source_code_link: 'https://github.com/Matthew-Ayinde/daily-times'
     },
     {
         iconUrl: threads,
@@ -190,29 +214,8 @@ export const projects = [
         iconUrl: car,
         theme: 'btn-back-blue',
         name: "Book List",
-        description: "My booklist project, created using HTML5, BootStrap and JavaScript, provides an intuitive platform for managing books with a user-friendly minimalistic approach. This project underscores my proficiency in web development and commitment to user-centered design, laying a strong foundation for future projects in this domain.",
+        description: "My booklist project, created using HTML5, BootStrap and JavaScript, provides an intuitive platform for managing books with a user-friendly minimalistic approach. This project underscores my proficiency in web development and user-centered design, laying a strong foundation for future projects in this domain.",
         source_code_link: 'https://github.com/Matthew-Ayinde/book-list-project',
         source_code_demo: 'https://book-list-project-pi.vercel.app/'
     },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: "Book List",
-        description: "My booklist project, created using HTML5, BootStrap and JavaScript, provides an intuitive platform for managing books with a user-friendly minimalistic approach. This project underscores my proficiency in web development and commitment to user-centered design, laying a strong foundation for future projects in this domain.",
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
 ];
